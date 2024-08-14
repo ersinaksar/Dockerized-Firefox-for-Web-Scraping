@@ -31,7 +31,7 @@ sudo docker build -t my-firefox .
 <p>4. Run the Docker container using the command</p>
 
 ```
-sudo docker run --rm -e DISPLAY=:99 my-firefox
+sudo docker run my-firefox
 ```
 
 <p>5. The page source of the URL will be printed to the console.</p>
